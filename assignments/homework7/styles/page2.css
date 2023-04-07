@@ -16,4 +16,16 @@ span {
     color: rebeccapurple;
     font-size: 80px;
     position: relative;
+    padding: 20px;
 }
+
+img {
+    width: 30%;
+    border-style: dashed;
+    padding: 20px;
+}
+
+audio {
+    display: none;
+}
+
