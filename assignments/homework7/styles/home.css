@@ -9,9 +9,9 @@
 
 .center-image:hover {
   background-color: rgb(0, 255, 115);
-  content: url(../images/up.gif);
+  content: url(../images/free-money.gif);
   bottom: 0%;
-  width: 100%;
+  width: 60%;
 }
 
 body {
@@ -39,6 +39,10 @@ body {
 .imgbox h2 {
   color: green;
   background-color: aquamarine;
+  border-style: solid;
+  border-color: red;
+  padding: 10px;
+  margin: 10px;
 }
 
 .imgtxt {
@@ -46,5 +50,5 @@ body {
   position:absolute;
   text-align:center;
   top: 30px;
-  width: 100%
+  width: 100%;
 }

@@ -1,3 +1,19 @@
 body {
+    background-color: black; /* using background color even if there is background image to meet the assignment rubrics */
     background-image: url(../images/static.gif);
+    background-repeat: repeat;
+}
+
+a {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+span {
+    color: rebeccapurple;
+    font-size: 80px;
+    position: relative;
 }
