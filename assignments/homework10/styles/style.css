@@ -9,9 +9,10 @@ body {
 header {
     width: 100%;
 	text-align: center;
-	color:antiquewhite;
-	height: 150px;
+	color:black;
+	height: 110px;
 	padding: 50px 0px;
+    font-size: large;
 	background-color: aqua;
 }
 
@@ -26,8 +27,17 @@ section {
     background-color: aliceblue;
 }
 
+section.left {
+    float: left;
+}
+
+section.right {
+    float: right;
+}
+
 h2 {
-    color: antiquewhite;
+    color: rgb(40, 40, 39);
+    text-align: center;
 }
 
 
@@ -40,6 +50,7 @@ h2 {
 @media (max-width:940px) {
 
     section {
+        color: blueviolet;
         font-size: 12px;
     }
     
@@ -52,13 +63,17 @@ h2 {
     }
 
     header {
-        color: aliceblue;
+        color: rgb(69, 115, 92);
     }
 }
 
 @media print {
 
     header, article, section, h2 {
+        text-decoration: none;
+    }
+
+    footer {
         display: none;
     }
     
