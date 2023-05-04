@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    width: 50%;
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+
+@media (max-width:600px) {
+    section {
+        width: 100%;
+    }
+}
+
+@media (max-width:940px) {
+
+
+    
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    
+    section {
+        font-size: 16;
+    }
+
+    h2 {
+        color: cadetblue;
+    }
+}
+
+@media print {
+    
+}
